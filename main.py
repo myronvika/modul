@@ -8,7 +8,7 @@ import json
 import requests
 import mysql.connector as connection
 
-mydb = connection.connect(host="localhost", user="root", passwd="GBMgbm2200!", use_pure=True)
+mydb = connection.connect(host="localhost", user="root", passwd="root", use_pure=True)
 
 
 class InfoStation:
